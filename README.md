@@ -8,17 +8,21 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import pandas to read the CSV file.
+2. Load and check for null or duplicated values in the dataset.
+3. Use LabelEncoder to encode the dataset values.
+4. Import LogisticRegression and apply it to the dataset with train and test data (X and y).
+5. Predict values using the variable y_pred.
+6. Calculate accuracy, confusion, and classification report using sklearn's metrics.
+7. Apply new data and print accuracy, confusion, and classification report.
+8. End the program.
 
 ## Program:
 ```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: 
-RegisterNumber:  
+Developed by: Divya S
+RegisterNumber: 212221040042
 */
 ```
 ```
@@ -83,8 +87,38 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
+## HEAD OF THE DATA :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/78837c62-fd5b-46e2-bf87-c25b394cba24)
 
+## COPY HEAD OF THE DATA:
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/9ece7191-2f84-4d68-a266-6e68355da220)
+
+## NULL AND SUM :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/76732966-509e-4534-8990-6118895da69d)
+
+## DUPLICATED :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/f81e060c-b131-4508-86f6-1747b2e99eaf)
+
+## X VALUE:
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/4298fcf2-8a52-4f96-a251-5e598e97a166)
+
+## Y VALUE :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/5a53aa8d-f530-4e33-a349-d57c3e8aa3e3)
+
+## PREDICTED VALUES :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/cd5403a0-f517-4e4e-97f6-62fc7cc0ba15)
+
+## ACCURACY :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/ebed675f-5854-4dd5-9623-f7b7da87aae7)
+
+## CONFUSION MATRIX :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/ca7684dc-e5e0-4054-a06b-16098c3cd37c)
+
+## CLASSIFICATION REPORT :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/03b56914-984f-4d45-a81b-05867bcc5b0a)
+
+## Prediction of LR :
+![image](https://github.com/divz2711/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121245222/a12fb720-eed0-4830-812e-02b1a1e15acd)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
